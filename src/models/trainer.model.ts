@@ -1,4 +1,5 @@
-import { mongoose } from "../database/mongodb.database";
+import mongoose from "mongoose";
+
 // Defining schema
 const TrainerSchema = new mongoose.Schema({
   name: String,

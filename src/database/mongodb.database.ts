@@ -14,4 +14,4 @@ const connectDB = async () => {
 
 const mongodb = mongoose.connection;
 
-export { connectDB, mongoose, mongodb };
+export { connectDB, mongodb };
